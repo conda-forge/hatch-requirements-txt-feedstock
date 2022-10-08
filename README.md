@@ -143,5 +143,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@domdfcoding](https://github.com/domdfcoding/)
 * [@maresb](https://github.com/maresb/)
 
