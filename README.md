@@ -1,11 +1,11 @@
-About hatch-requirements-txt
-============================
+About hatch-requirements-txt-feedstock
+======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hatch-requirements-txt-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/repo-helper/hatch-requirements-txt
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hatch-requirements-txt-feedstock/blob/main/LICENSE.txt)
 
 Summary: Hatchling plugin to read project dependencies from requirements.txt
 
