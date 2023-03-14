@@ -1,5 +1,5 @@
 {% set name = "hatch-requirements-txt" %}
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hatch_requirements_txt-{{ version }}.tar.gz
-  sha256: bb87ecee32e4ac05d09854ac3c279dd526fbd655154acd9cd10c2a4768a83669
+  sha256: 800509946e85d9e56d73242fab223ec36db50372e870a04e2dd1fd9bad98455d
 
 build:
   noarch: python
@@ -16,11 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.6.1
+    - hatchling
     - pip
-    - hatchling >=0.21.0
   run:
-    - python >=3.6
+    - python >=3.6.1
     - hatchling >=0.21.0
     - packaging >=21.3
 
